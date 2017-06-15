@@ -8473,9 +8473,77 @@ button.close {
   font-size: 14px;
 }
 
+.body .holder {
+  background-color: lightblue;
+  color: gray;
+}
+
+.body .wrap {
+  margin-bottom: 40px;
+}
+
 .footer-text {
   color: #337ab7;
   font-size: 12px;
   border-top: 1px solid #337ab7;
   padding-top: 20px;
+}
+.wrap {
+  text-align: center;
+}
+
+.wrap h1 {
+  color: #3A262F;
+  font-weight: normal;
+  text-align: center;
+}
+
+.wrap kbd {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wrap .trn-container {
+  display: inline-block;
+}
+
+.wrap .trn-container .box {
+  height: 40px;
+  width: 40px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin: 20px 50px 0;
+}
+
+.wrap:hover .box {
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  -moz-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2);
+}
+
+.box1 {
+  background: #FFD592;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
+}
+
+.box2 {
+  background: #F9A88B;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+}
+
+.box3 {
+  background: #B39190;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  -moz-transition: 2s;
+  transition: 2s;
 }

@@ -1,0 +1,44 @@
+.wrap {
+  text-align: center;
+  h1 {
+    color: #3A262F;
+    font-weight: normal;
+    text-align: center;
+  }
+  kbd {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .trn-container {
+    display: inline-block;
+    .box {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      margin: 20px 50px 0;
+    }
+  }
+  &:hover {
+    .box {
+      -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+      transform: scale(2);
+    }
+  }
+}
+
+.box1 {
+  background: #FFD592;
+  transition: .5s;
+}
+
+.box2 {
+  background: #F9A88B;
+  transition: 1s;
+}
+
+.box3 {
+  background: #B39190;
+  transition: 2s;
+}
